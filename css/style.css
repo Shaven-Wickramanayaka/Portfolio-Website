@@ -1,1 +1,141 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
 
+.body{
+    background-color: #131313;
+}
+
+
+/* home stuff */
+
+
+#first-container{
+    margin-bottom: 200px;
+
+}
+#main-header{
+    font-family: 'Nova Mono', monospace;
+    margin:150px auto 0px auto;
+    color: #025920;
+    padding: 30px;
+    text-align: center;
+}
+
+
+
+#pfp_pic{
+    top: 50px;
+    text-align: center;
+    width: 80%;
+    margin: 100px auto 30px 50px;
+    border-radius: 500px;
+    padding: 50px;
+    transition: 1s;
+}
+
+#pfp_pic:hover{
+    transform: translateY(-10px);
+}
+
+h3{
+    font-family: 'Quicksand', sans-serif;
+    margin:120px auto 0px auto;
+    color: #025920;
+    padding: 90px;
+    text-align: center;
+}
+
+.bold-text:hover{
+    color: #692EFF;
+}
+#Shake-hand{
+
+    color: #692EFF;
+}
+
+.bold-text{
+
+    transition:0.8s ease-in-out;
+    color: #025920;
+}
+
+/* About me */
+
+.Skills-text{
+    text-align: center;
+    text-size-adjust: 20px;
+    margin: 10px auto 50px auto;
+}
+
+.My-picture{
+  width: 50%;
+  margin-left: 10%;
+  border-radius: 200px;
+
+}
+.skills-list{
+  font-size: 25px;
+  line-height: 2;
+  margin: 10% 0 0 -15%;
+  top: 20px;
+  color: #025920;
+}
+
+
+
+/* HACK:Skill scetion */
+#card1 {
+  margin:auto;
+}
+
+#card2 {
+  margin:auto;
+}
+
+#card3 {
+  left: 5px;
+  top: 60px;
+  margin:auto;
+}
+
+#card4 {
+  left: 20px;
+  top: 60px;
+  margin:auto;
+}
+
+
+.card {
+  transition: 1s;
+}
+
+.card:hover {
+  transform: translateY(20px);
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+/* HACK: form */
+#contact{
+  margin: auto;
+}
+.container-contact {
+  padding: 30px;
+  width: 1000px;
+}
+
+.products {
+  height: 900px;
+}
+
+.contact-form {
+  height: 800px;
+}
+
+.small-t {
+  color: black;
+  transition: 0.2s;
+}
