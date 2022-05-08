@@ -139,3 +139,20 @@ h3{
   color: black;
   transition: 0.2s;
 }
+
+/* Footer styling */
+
+.fab {
+  margin-left: 20px;
+  color: #025920;
+}
+
+#footer {
+    height:60px;
+    background-color: black;
+    text-align: center;
+}
+
+.fa-discord:hover,.fa-reddit:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-github:hover {
+  color: #692EFF;
+}
