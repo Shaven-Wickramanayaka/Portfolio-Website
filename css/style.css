@@ -1,3 +1,5 @@
+/* * Some default styling */
+
 *{
   margin: 0;
   padding: 0;
@@ -8,8 +10,24 @@
     background-color: #131313;
 }
 
+/* * Custom scrollbar */
 
-/* home stuff */
+html::-webkit-scrollbar {
+  width: 15px;
+}
+
+html::-webkit-scrollbar-track {
+  background: linear-gradient(0deg, #692EFF 0%, #025920 60%);
+}
+
+html::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+    height: 10px;
+    background: transparent;
+    box-shadow: 0px 0px 0px 100vh black;
+}
+
+/* * The styling for the home section */
 
 
 #first-container{
@@ -62,7 +80,7 @@ h3{
     color: #025920;
 }
 
-/* About me */
+/* * The styling for the about me section */
 
 .Skills-text{
     text-align: center;
@@ -85,8 +103,8 @@ h3{
 }
 
 
+/*  * The styling for the skills section */
 
-/* HACK:Skill scetion */
 #card1 {
   margin:auto;
 }
@@ -118,7 +136,13 @@ h3{
   border-bottom-right-radius: 30px;
 }
 
-/* HACK: form */
+/* * The styling for the contact form */
+
+#contact-block{
+  background-color: black;
+  border-radius: 30px;
+  height: 20%;
+}
 #contact{
   margin: auto;
 }
@@ -140,15 +164,18 @@ h3{
   transition: 0.2s;
 }
 
-/* Footer styling */
+/*  * The styling for the footer section */
 
 .fab {
+  margin-top: 1.5%;
   margin-left: 20px;
   color: #025920;
+  transition: 1s;
 }
 
 #footer {
-  border-radius: 20px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
     height:60px;
     background-color: black;
     text-align: center;
