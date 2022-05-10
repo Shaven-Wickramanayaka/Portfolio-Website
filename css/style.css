@@ -148,6 +148,7 @@ h3{
 }
 
 #footer {
+  border-radius: 20px;
     height:60px;
     background-color: black;
     text-align: center;
