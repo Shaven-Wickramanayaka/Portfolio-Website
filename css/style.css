@@ -1,13 +1,20 @@
-/* * Some default styling */
-
-*{
-  margin: 0;
-  padding: 0;
-  
+/* *? Global variables */
+:root {
+  --bg: #131313;
+  --dom-color: #22d30b;
+  --sec-color: #088012;
 }
 
-.body{
-    background-color: #131313;
+/* * Some default styling */
+
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+.body {
+  background-color: #131313;
 }
 
 /* * Custom scrollbar */
@@ -17,112 +24,109 @@ html::-webkit-scrollbar {
 }
 
 html::-webkit-scrollbar-track {
-  background: linear-gradient(0deg, #692EFF 0%, #025920 60%);
+  background: var(--sec-color)
 }
 
 html::-webkit-scrollbar-thumb {
   border-radius: 20px;
-    height: 10px;
-    background: transparent;
-    box-shadow: 0px 0px 0px 100vh black;
+  height: 10px;
+  background: transparent;
+  box-shadow: 0px 0px 0px 100vh black;
 }
 
 /* * The styling for the home section */
 
 
-#first-container{
-    margin-bottom: 200px;
 
-}
-#main-header{
-    font-family: 'Nova Mono', monospace;
-    margin:150px auto 0px auto;
-    color: #025920;
-    padding: 30px;
-    text-align: center;
+#main-header {
+  flex: 1;
+  font-family: 'Nova Mono', monospace;
+  margin: 150px 0px 0px auto;
+  color: var(--dom-color);
+  padding: 30px;
+  text-align: center;
 }
 
 
 
-#pfp_pic{
-    top: 50px;
-    text-align: center;
-    width: 80%;
-    margin: 100px auto 30px 50px;
-    border-radius: 500px;
-    padding: 50px;
-    transition: 1s;
+#pfp_pic {
+  top: 50px;
+  text-align: center;
+  width: 80%;
+  margin: 100px auto 30px 50px;
+  border-radius: 500px;
+  padding: 50px;
+  transition: 1s;
 }
 
-#pfp_pic:hover{
-    transform: translateY(-10px);
+#pfp_pic:hover {
+  transform: translateY(-10px);
 }
 
-h3{
-    font-family: 'Quicksand', sans-serif;
-    margin:120px auto 0px auto;
-    color: #025920;
-    padding: 90px;
-    text-align: center;
+h3 {
+  font-family: 'Quicksand', sans-serif;
+  margin: 120px auto 0px auto;
+  color: var(--dom-color);
+  padding: 90px;
+  text-align: center;
 }
 
-.bold-text:hover{
-    color: #692EFF;
-}
-#Shake-hand{
-
-    color: #692EFF;
+.bold-text:hover {
+  color: var(--sec-color);
 }
 
-.bold-text{
 
-    transition:0.8s ease-in-out;
-    color: #025920;
+
+.bold-text {
+
+  transition: 0.8s ease-in-out;
+  color: var(--dom-color);
 }
 
 /* * The styling for the about me section */
 
-.Skills-text{
-    text-align: center;
-    text-size-adjust: 20px;
-    margin: 10px auto 50px auto;
+.Skills-text {
+  text-align: center;
+  text-size-adjust: 20px;
+  margin: 10px auto 50px auto;
 }
 
-.My-picture{
+.My-picture {
   width: 50%;
   margin-left: 10%;
   border-radius: 200px;
 
 }
-.skills-list{
+
+.skills-list {
   font-size: 25px;
   line-height: 2;
   margin: 10% 0 0 -15%;
   top: 20px;
-  color: #025920;
+  color: var(--dom-color);
 }
 
 
 /*  * The styling for the skills section */
 
 #card1 {
-  margin:auto;
+  margin: auto;
 }
 
 #card2 {
-  margin:auto;
+  margin: auto;
 }
 
 #card3 {
   left: 5px;
   top: 60px;
-  margin:auto;
+  margin: auto;
 }
 
 #card4 {
   left: 20px;
   top: 60px;
-  margin:auto;
+  margin: auto;
 }
 
 
@@ -138,17 +142,19 @@ h3{
 
 /* * The styling for the contact form */
 
-#contact-block{
+#contact-block {
   background-color: black;
   border-radius: 30px;
   height: 20%;
 }
-#contact{
+
+#contact {
   margin: auto;
 }
+
 .container-contact {
   padding: 30px;
-  width: 1000px;
+  width: 50%;
 }
 
 .products {
@@ -164,23 +170,30 @@ h3{
   transition: 0.2s;
 }
 
+#contact-form-container{
+  margin: auto;
+}
 /*  * The styling for the footer section */
 
 .fab {
   margin-top: 1.5%;
   margin-left: 20px;
-  color: #025920;
+  color: var(--dom-color);
   transition: 1s;
 }
 
 #footer {
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    height:60px;
-    background-color: black;
-    text-align: center;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  height: 60px;
+  background-color: #0c0c0c;
+  text-align: center;
 }
 
-.fa-discord:hover,.fa-reddit:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-github:hover {
-  color: #692EFF;
+.fa-discord:hover,
+.fa-reddit:hover,
+.fa-twitter:hover,
+.fa-linkedin:hover,
+.fa-github:hover {
+  color: var(--sec-color);
 }
