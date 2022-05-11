@@ -15,40 +15,20 @@
   <body class="body">
     <!-- Start of nav bar section -->
 
-    <nav class="navbar navbar-expand-sm  navbar-dark fixed-top">
-
-      <div class="container-fluid">
-
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
-
-          <span class="navbar-toggler-icon"></span>
-
-        </button>
-
-        <div class="collapse navbar-collapse" id="Navbar">
-
-          <ul class="navbar-nav me-auto">
-
-            <li class="nav-item">
-              <a class=" link-success nav-link" href="#Home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="link-success nav-link" href="#About-Me">About Me</a>
-            </li>
-            <li class="nav-item">
-              <a class=" link-success nav-link" href="#My-Skills">My Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class=" link-success nav-link" href="#Contact-Me">Contact Me</a>
-            </li>
-            
-          </ul>
-
-        </div>
-
-      </div>
-
-    </nav>
+    <!-- nav -->
+	<nav class="navbar navbar-expand-sm  navbar-dark fixed-top">
+		<div class="container-fluid">
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar"> <span class="navbar-toggler-icon"></span> </button>
+			<div class="collapse navbar-collapse" id="mynavbar">
+				<ul class="navbar-nav me-auto">
+					<li class="nav-item"> <a class=" link-success nav-link" href="#Home">Home</a> </li>
+					<li class="nav-item"> <a class="link-success nav-link" href="#Products">Products</a> </li>
+					<li class="nav-item"> <a class=" link-success nav-link" href="#About-us">About Us</a> </li>
+					<li class="nav-item"> <a class=" link-success nav-link" href="#contact">Contact Us</a> </li>
+				</ul>
+			</div>
+		</div>
+	</nav>
 	<!-- End of the nav bar section -->
 
 
@@ -237,17 +217,17 @@
   <center>      <!-- Yes i know this is obselete but its so much easier-->
     <div id="contact" id="Contact-Me">
 
-        <div class="container-contact" >
+        <div class="container-contact container-fluid" >
             
           <h3 class="text-center" id="Contact-Me">Contact us</h3>
 
             <div class="row mt-4">
                 
               
-              <div class="col-lg-12">
+              <div class="col-lg-6" id="contact-form-container">
 
                     <!-- form fields -->
-                    <form>
+                    <form name="contact" method="POST" data-netlify="true">
 
                         <input type="text" class="form-control form-control-lg" placeholder="Name">
                         <input type="email" class="form-control mt-3" placeholder="Email">
@@ -257,10 +237,10 @@
                             <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Extra Details"></textarea>
                         
                           </div>
-
+                          <button type="button" class="btn btn-outline-success">Send</button>
                     </form>
                     
-                    <button type="button" class="btn btn-outline-success">Send</button>
+                    
               
                   </div>
         
