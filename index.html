@@ -1,47 +1,57 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://fonts.googleapis.com/css2?family=Nova+Mono&family=Quicksand&display=swap" rel="stylesheet">
-    <title>Shaven Dulneth</title>
+<head>
 
-  </head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=Nova+Mono&family=Quicksand&display=swap" rel="stylesheet">
+  <title>Shaven Dulneth</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <script src="js/index.js"></script>
+</head>
 
-  <body class="body">
-    <!-- Start of nav bar section -->
+<body class="body">
+  <div id="cover" class="h">
+    <!-- ? Start of nav bar section -->
 
     <!-- nav -->
-	<nav class="navbar navbar-expand-sm  navbar-dark fixed-top">
-		<div class="container-fluid">
-			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar"> <span class="navbar-toggler-icon"></span> </button>
-			<div class="collapse navbar-collapse" id="mynavbar">
-				<ul class="navbar-nav me-auto">
-					<li class="nav-item"> <a class=" link-success nav-link" href="#Home">Home</a> </li>
-					<li class="nav-item"> <a class="link-success nav-link" href="#Products">Products</a> </li>
-					<li class="nav-item"> <a class=" link-success nav-link" href="#About-us">About Us</a> </li>
-					<li class="nav-item"> <a class=" link-success nav-link" href="#contact">Contact Us</a> </li>
-				</ul>
-			</div>
-		</div>
-	</nav>
-	<!-- End of the nav bar section -->
+    <nav class="navbar navbar-expand-sm  navbar-dark fixed-top">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar"> <span
+            class="navbar-toggler-icon"></span> </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item"> <a class=" link-success nav-link" href="#Home">Home</a> </li>
+            <li class="nav-item"> <a class="link-success nav-link" href="#About-Me">About Me</a> </li>
+            <li class="nav-item"> <a class=" link-success nav-link" href="#My-Skills">My Skills</a> </li>
+            <li class="nav-item"> <a class=" link-success nav-link" href="#Contact-Me">Contact Me</a> </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- ? End of the nav bar section -->
 
 
-    <!-- Home Page Section -->
+    <!-- ? Home Page Section -->
     <div class="container-fluid" id="Home">
 
       <div class="row">
 
-        <div class="col-md-7 col-sm-12" id="first-colum">
+        <div class="col-md-7 col-sm-12 " id="first-colum">
 
           <h1 id="main-header">Hi,I'm Shaven Wickramanayake</h1>
-          <h3 class="2d-header">Im a <b class="bold-text">Web developer</b> based in Sri lanka. I enjoy <b class="bold-text">coding websites</b>, <b class="bold-text">taking cinematic videos</b> and <b class="bold-text">staring at betta fish</b></h3>
-        
+          <h3 class="2d-header" id="main-para">Im a <b class="bold-text">Web developer</b> based in Sri lanka. I enjoy
+            <b class="bold-text">coding websites</b>, <b class="bold-text">taking cinematic videos</b> and <b
+              class="bold-text">staring at betta fish</b>
+          </h3>
+
         </div>
         <div class="col-md-5 col-sm-12">
 
@@ -51,27 +61,27 @@
       </div>
 
     </div>
-    <!-- end main section -->
+    <!-- ? end main section -->
 
 
 
-    <!-- start About me section -->
+    <!-- ? start About me section -->
     <div class="container-fluid" id="About-Me">
 
       <div class="row">
-        
+
         <h3 class="Skills-text">About <em>Me</em></h3>
-      
+
       </div>
       <div class="row">
 
-        <div class="col-md-6 ">
+        <div class="col-md-6 col-sm-12" id="pic-shaven">
 
           <img class="My-picture" src="images/200.png" alt="A picture of Shaven Wickramanayake">
-       
+
         </div>
 
-        <div class="col-md-6">
+        <div class="col-md-6 col-sm-12">
 
           <ul class="skills-list ">
             <li><b class="bold-text">Name:</b> Shaven Dulneth Wickramanayake</li>
@@ -79,32 +89,32 @@
             <li><b class="bold-text">Education:</b> Thurstan College</li>
             <li><b class="bold-text">Hobbies:</b> Web Development, Fish Keeping, Playing Guitar</li>
           </ul>
-        
+
         </div>
-      
+
       </div>
-    
+
     </div>
 
-    
-    
-	<!-- End of about me section -->
+
+
+    <!-- ? End of about me section -->
 
 
 
-    <!-- SKill section start -->
+    <!-- ? SKill section start -->
     <div class="container-fluid" id="My-Skills">
       <h3>My <em>Skills</em></h3>
       <div class="row">
 
-        <div class="col-lg-6 col-md-6 col-sm-12">
+        <div class="col-lg-3 col-md-3 col-sm-12, surround-card">
 
           <div class="first-skill">
 
             <div id="card1" class="card" style="width: 18rem;">
 
               <img src="https://via.placeholder.com/200/121212/008000?Text=My+Skills" class="card-img-top" alt="...">
-              
+
               <div class="card-body">
 
                 <h5 class="card-title">HTML 5</h5>
@@ -114,24 +124,24 @@
                   <i class="fa-solid fa-star"></i>
                   <i class="fa-solid fa-star"></i>
                 </p>
-                <a href="https://www.facebook.com/fishlaaquarium.lk/shop/?ref_code=view_shop_cta&ref_surface=page" target="_blank" class="btn btn-dark">Order Now</a>
-              
+
+
               </div>
-            
+
             </div>
-         
+
           </div>
-       
+
         </div>
-        
-        <div class="col-lg-6">
-          
+
+        <div class="col-lg-3 col-md-3 col-sm-12, surround-card">
+
           <div id="card2" class="card" style="width: 18rem;">
 
             <img src="https://via.placeholder.com/200/121212/008000?Text=My+Skills" class="card-img-top" alt="...">
-           
+
             <div class="card-body">
-             
+
               <h5 class="card-title">CSS 3</h5>
               <p class="card-text">
                 <i class="fa-solid fa-star"></i>
@@ -139,73 +149,66 @@
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
               </p>
-              <a href="https://www.facebook.com/fishlaaquarium.lk/shop/?ref_code=view_shop_cta&ref_surface=page" target="_blank" class="btn btn-dark">Order Now</a>
-            
+
+
             </div>
-          
+
           </div>
-        
+
         </div>
 
-        <br>
-        <br>
-        <br>
-        <br>
-        
-        <div class="row">
-          
-          <div class="col-lg-6 col-md-6 col-sm-12">
-            
-            <div class="first-skill">
-              
-              <div id="card3" class="card" style="width: 18rem;">
+        <div class="col-lg-3 col-md-3 col-sm-12, surround-card">
 
-                <img src="https://via.placeholder.com/200/121212/008000?Text=My+Skills" class="card-img-top" alt="...">
-                
-                <div class="card-body">
-                  <h5 class="card-title">Javascript 3</h5>
-                  <p class="card-text">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                  </p>
-                  <a href="https://www.facebook.com/fishlaaquarium.lk/shop/?ref_code=view_shop_cta&ref_surface=page" target="_blank" class="btn btn-dark">Order Now</a>
-                
-                </div>
-              
-              </div>
-           
-            </div>
-          
-          </div>
-        
-          <div class="col-lg-6">
-            
-            <div id="card4" class="card" style="width: 18rem;">
-             
+          <div class="first-skill">
+
+            <div id="card3" class="card" style="width: 18rem;">
+
               <img src="https://via.placeholder.com/200/121212/008000?Text=My+Skills" class="card-img-top" alt="...">
-              
+
               <div class="card-body">
-                <h5 class="card-title">Bootstrap 5</h5>
+                <h5 class="card-title">Javascript 3</h5>
                 <p class="card-text">
                   <i class="fa-solid fa-star"></i>
                   <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
                 </p>
-                <a href="https://www.facebook.com/fishlaaquarium.lk/shop/?ref_code=view_shop_cta&ref_surface=page" target="_blank" class="btn btn-dark">Order Now</a>
-              
+
+
               </div>
-           
+
             </div>
-        
+
           </div>
-       
         </div>
-     
+
+
+        <div class="col-lg-3 col-md-3 col-sm-12, surround-card">
+
+          <div id="card4" class="card" style="width: 18rem;">
+
+            <img src="https://via.placeholder.com/200/121212/008000?Text=My+Skills" class="card-img-top" alt="...">
+
+            <div class="card-body">
+              <h5 class="card-title">Bootstrap 5</h5>
+              <p class="card-text">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </p>
+
+
+            </div>
+
+          </div>
+
+        </div>
+
       </div>
-   
+
     </div>
-		<!-- End of skills section -->
-  
+
+  </div>
+  <!-- End of skills section -->
+
   <br>
   <br>
   <br>
@@ -213,64 +216,73 @@
   <br>
 
 
-		<!-- Start of contact me section -->
-  <center>      <!-- Yes i know this is obselete but its so much easier-->
+  <!-- Start of contact me section -->
+  <center>
+    <!-- !Yes i know this is obselete but its so much easier-->
     <div id="contact" id="Contact-Me">
 
-        <div class="container-contact container-fluid" >
-            
-          <h3 class="text-center" id="Contact-Me">Contact us</h3>
+      <div class="container-contact container-fluid">
 
-            <div class="row mt-4">
-                
-              
-              <div class="col-lg-6" id="contact-form-container">
+        <h3 class="text-center" id="Contact-Me">Contact us</h3>
 
-                    <!-- form fields -->
-                    <form name="contact" method="POST" data-netlify="true">
+        <div class="row mt-4">
 
-                        <input type="text" class="form-control form-control-lg" placeholder="Name">
-                        <input type="email" class="form-control mt-3" placeholder="Email">
-                        <input type="text" class="form-control mt-3" placeholder="Message">
-                        <div class="mb-3 mt-3">
 
-                            <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Extra Details"></textarea>
-                        
-                          </div>
-                          <button type="button" class="btn btn-outline-success">Send</button>
-                    </form>
-                    
-                    
-              
-                  </div>
-        
-            </div>
-    
+          <div class="col-lg-6" id="contact-form-container">
+
+            <!-- form fields -->
+            <form name="contact" method="POST" data-netlify="true">
+
+              <input type="text" class="form-control form-control-lg" placeholder="Name">
+              <input type="email" class="form-control mt-3" placeholder="Email">
+              <input type="text" class="form-control mt-3" placeholder="Message">
+              <div class="mb-3 mt-3">
+
+                <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Extra Details"></textarea>
+
+              </div>
+              <button type="button" class="btn btn-outline-success">Send</button>
+            </form>
+
+
+
+          </div>
+
         </div>
+
+      </div>
 
   </center>
 
   <!-- Footer Section -->
 
-  <footer class="footer"id="footer">
+  <footer class="footer" id="footer">
 
     <div class="container-fluid" class="footer">
 
-        <!-- social media icons -->
-        <div class="social-icons mt-4">
-          
-            <a href="https://discord.com/channels/@me/960435802398142484" target="_blank"><i class="fab fa-discord fa-2x"></i></a>
-            <a href="https://www.reddit.com/user/Graphicdesignmaniac" target="_blank"><i class="fab fa-reddit fa-2x"></i></a>
-            <a href="https://twitter.com/ShavenWickrama1" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
-            <a href="https://www.linkedin.com/in/shaven-wickramanayaka-022683236/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
-            <a href="https://github.com/IceFly147" target="_blank"><i class="fab fa-github fa-2x"></i></a>
-        
-        </div>
-    
+      <!-- social media icons -->
+      <div class="social-icons mt-4">
+
+        <a href="https://discord.com/channels/@me/960435802398142484" target="_blank"><i
+            class="fab fa-discord fa-2x"></i></a>
+        <a href="https://www.reddit.com/user/Graphicdesignmaniac" target="_blank"><i
+            class="fab fa-reddit fa-2x"></i></a>
+        <a href="https://twitter.com/ShavenWickrama1" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+        <a href="https://www.linkedin.com/in/shaven-wickramanayaka-022683236/" target="_blank"><i
+            class="fab fa-linkedin fa-2x"></i></a>
+        <a href="https://github.com/IceFly147" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+
       </div>
+
+    </div>
 
   </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+  </div>
 </body>
+
 </html>
