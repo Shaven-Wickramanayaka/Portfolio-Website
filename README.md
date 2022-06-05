@@ -14,7 +14,7 @@
   
   ![image](https://user-images.githubusercontent.com/100683747/172035282-a2041abb-4c17-432a-9d02-51649dc0d0c8.png)
 
-  <h4> View this project online: https://icefly147.github.io/Portfoilio-Website/ </h4>
+  <h4> View this project online: https://icefly147.github.io/Portfolio-Website/</h4>
     
    <h4> feel free to add any suggestion on what i should add my adding and issue!</h4>
     
