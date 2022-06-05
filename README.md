@@ -7,7 +7,7 @@
 <img src="https://skillicons.dev/icons?i=css"  title="CSS3" alt="CSS" width="40" height="40"/>&nbsp;
 <img src="https://skillicons.dev/icons?i=git" title="Git" alt="Git" width="40" height="40"/>&nbsp;
 
-  <h3> Framworks Used </h3>
+  <h3> Frameworks Used </h3>
   <img src="https://skillicons.dev/icons?i=bootstrap" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp;
   
   </center>
@@ -16,6 +16,6 @@
 
   <h4> View this project online: https://icefly147.github.io/Portfoilio-Website/ </h4>
     
-    <h4> feel free to add any suggestion on what i should add my adding and issue!</h4>
+   <h4> feel free to add any suggestion on what i should add my adding and issue!</h4>
     
-    <small> Copyright Shaven Wickramanayake © 2022 </small>
+   <small> Copyright Shaven Wickramanayake © 2022 </small>
