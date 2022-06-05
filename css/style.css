@@ -1,9 +1,9 @@
 /* *? Global variables */
 :root {
   --black: #131313;
-  --dom-color: #d200ff;
+  --dom-color: #fff;
   --acc-color: #ffbf19;
-  --sec-color: #0ab37b;
+  --sec-color: #0c29a8;
 }
 
 /* * Some default styling */
@@ -37,7 +37,8 @@ html::-webkit-scrollbar-thumb {
 /* *Animations */
 
 #cover {
-  z-index: 2;
+  z-index: 3;
+  background-image: url("images/grid-svg.svg");
 }
 @keyframes reveal {
   0% {
@@ -57,7 +58,9 @@ html::-webkit-scrollbar-thumb {
 }
 
 /* * The styling for the home section */
-
+#Home {
+  background-image: url("");
+}
 #main-header {
   flex: 1;
   font-family: "Nova Mono", monospace;
@@ -200,6 +203,14 @@ h3 {
   margin: auto;
 }
 
+.btn-sucess,
+.btn-sucess:hover,
+.btn-sucess:active,
+.btn-sucess:visited,
+.btn-sucess:focus {
+  background-color: var(--acc-color) !important;
+  border-color: var(--sec-color) !important;
+}
 /*  * The styling for the footer section */
 
 .fab {
