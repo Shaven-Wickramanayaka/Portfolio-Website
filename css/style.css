@@ -2,8 +2,8 @@
 :root {
   --black: #131313;
   --dom-color: #fff;
-  --acc-color: #ffbf19;
-  --sec-color: #0c29a8;
+  --acc-color: #2f424d;
+  --sec-color: #0d6ce0;
 }
 
 /* * Some default styling */
@@ -35,32 +35,42 @@ html::-webkit-scrollbar-thumb {
 }
 
 /* *Animations */
-
-#cover {
-  z-index: 3;
-  background-image: url("images/grid-svg.svg");
-}
-@keyframes reveal {
-  0% {
-    background-color: none;
-  }
-  50% {
-    background-color: var(--black);
-  }
-  100% {
-    background-color: none;
-  }
+#navbar {
+  background-color: #000000d0;
 }
 
-.reveal {
-  animation-name: reveal;
-  animation-duration: 2s;
+#home-link {
+  font-family: "Quicksand", sans-serif;
+  color: #0d6ce0;
+  font-size: 20px;
+}
+
+#about-link {
+  font-family: "Quicksand", sans-serif;
+  color: #0d6ce0;
+  font-size: 20px;
+}
+
+#skills-link {
+  font-family: "Quicksand", sans-serif;
+  color: #0d6ce0;
+  font-size: 20px;
+}
+
+#contact-link {
+  font-family: "Quicksand", sans-serif;
+  color: #0d6ce0;
+  font-size: 20px;
+}
+#home-link:hover,
+#skills-link:hover,
+#about-link:hover,
+#contact-link:hover {
+  color: var(--sec-color);
 }
 
 /* * The styling for the home section */
-#Home {
-  background-image: url("");
-}
+
 #main-header {
   flex: 1;
   font-family: "Nova Mono", monospace;
@@ -87,7 +97,7 @@ html::-webkit-scrollbar-thumb {
 h3 {
   font-family: "Quicksand", sans-serif;
   margin: 120px auto 0px auto;
-  color: var(--sec-color);
+  color: var(--dom-color);
   padding: 90px;
   text-align: center;
 }
@@ -104,7 +114,7 @@ h3 {
 /* * The styling for the about me section */
 
 .Skills-text {
-  color: var(--dom-color);
+  color: var(--sec-color);
   text-align: center;
   text-size-adjust: 20px;
   margin: 10px auto 50px auto;
@@ -132,7 +142,7 @@ h3 {
   line-height: 2;
   margin: 10% 0 0 -15%;
   top: 20px;
-  color: var(--sec-color);
+  color: var(--dom-color);
 }
 
 @media screen and (min-width: 480px) {
