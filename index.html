@@ -9,19 +9,20 @@
   <!--  % Css files -->
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/hover.css">
   <!-- % Font Awesome Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- %Google fonts fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Nova+Mono&family=Quicksand&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Quicksand&display=swap" rel="stylesheet">
   <!-- % Favicon image -->
   <link rel="shortcut icon" href="images/pfp.png" type="image/x-icon">
 
   <!--  % Title -->
   <title>Shaven Dulneth | Web Developer</title>
-
-  <script src="js/index.js" defer></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script src="js/form.js" defer></script>
 </head>
 
 <body class="body">
@@ -36,13 +37,17 @@
         <div class="collapse navbar-collapse" id="mynavbar">
           <ul class="navbar-nav me-auto">
 
-            <li class="nav-item" id="home-link"> <a class=" link-success nav-link" href="#Home">Home |</a> </li>
+            <li class="nav-item, hvr-underline-from-center" id="home-link"> <a class=" link-success nav-link"
+                href="#Home">Home |</a> </li>
 
-            <li class="nav-item" id="about-link"> <a class="link-success nav-link" href="#About-Me"> About Me |</a>
+            <li class="nav-item, hvr-underline-from-center" id="about-link"> <a class="link-success nav-link"
+                href="#About-Me"> About Me |</a>
             </li>
-            <li class="nav-item" id="skills-link"> <a class=" link-success nav-link" href="#My-Skills">My Skills |</a>
+            <li class="nav-item, hvr-underline-from-center" id="skills-link"> <a class=" link-success nav-link"
+                href="#My-Skills">My Skills |</a>
             </li>
-            <li class="nav-item" id="contact-link"> <a class=" link-success nav-link" href="#Contact-Me">Contact Me
+            <li class="nav-item, hvr-underline-from-center" id="contact-link"> <a class=" link-success nav-link"
+                href="#Contact-Me">Contact Me
                 |</a>
             </li>
 
@@ -119,13 +124,41 @@
 
     <!-- % SKill section start -->
     <div class="container-fluid" id="My-Skills">
-      <h3>My <em>Skills</em></h3>
+      <h3 class="Skills-text">My Skills</h3>
       <div class="row">
         <div class="col-lg-3 col-md-3 col-sm-12, surround-card">
 
           <div class="first-skill">
 
-            <div id="card1" class="card" style="width: 18rem;">
+            <div id="card1" class="card" style="width: 18rem; margin-bottom: 30px;">
+
+
+
+              <img src="html-5.png" class="card-img-top" alt="...">
+
+              <div class="card-body">
+
+                <h5 class="card-title">HTML 5</h5>
+                <p class="card-text">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </p>
+
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-12, surround-card">
+
+          <div class="first-skill">
+
+            <div id="card1" class="card" style="width: 18rem; margin-bottom: 30px;">
 
 
 
@@ -153,7 +186,7 @@
 
           <div class="first-skill">
 
-            <div id="card1" class="card" style="width: 18rem;">
+            <div id="card1" class="card" style="width: 18rem; margin-bottom: 30px;">
 
 
 
@@ -181,35 +214,7 @@
 
           <div class="first-skill">
 
-            <div id="card1" class="card" style="width: 18rem;">
-
-
-
-              <img src="images/200.png" class="card-img-top" alt="...">
-
-              <div class="card-body">
-
-                <h5 class="card-title">HTML 5</h5>
-                <p class="card-text">
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                </p>
-
-
-              </div>
-
-            </div>
-
-          </div>
-
-        </div>
-        <div class="col-lg-3 col-md-3 col-sm-12, surround-card">
-
-          <div class="first-skill">
-
-            <div id="card1" class="card" style="width: 18rem;">
+            <div id="card1" class="card" style="width: 18rem; ">
 
 
 
@@ -262,25 +267,23 @@
 
       <div class="container-contact container-fluid">
 
-        <h3 class="text-center" id="Contact-Me">Contact us</h3>
+        <h3 class="text-center, Skills-text" id="Contact-Me">Contact Me</h3>
 
         <div class="row mt-4">
 
-
           <div class="col-lg-6" id="contact-form-container">
-            <h4 style="color: #2cc3ff;">Currently not working.Please contact me via email :)</h4>
-            <!-- form fields -->
-            <form name="contact" method="POST" data-netlify="true">
 
-              <input type="text" class="form-control form-control-lg" placeholder="Name">
-              <input type="email" class="form-control mt-3" placeholder="Email">
-              <input type="text" class="form-control mt-3" placeholder="Title">
+            <!-- form fields -->
+            <form name="contact" id="contact-form">
+              <input type="hidden" name="contact_number">
+              <input type="text" class="form-control form-control-lg" placeholder="Name" name="user_name">
+              <input type="email" class="form-control mt-3" placeholder="Email" name="user_email">
               <div class="mb-3 mt-3">
 
-                <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Message"></textarea>
+                <textarea class="form-control" rows="5" id="comment" name="message" placeholder="Message"></textarea>
 
               </div>
-              <button type="button" class="btn btn-outline-success">Send</button>
+              <button type="submit" class="btn btn-outline-primary" value="Send">Send</button>
             </form>
 
 
