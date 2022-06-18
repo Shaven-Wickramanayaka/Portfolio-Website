@@ -73,7 +73,7 @@ html::-webkit-scrollbar-thumb {
 
 #main-header {
   flex: 1;
-  font-family: "Nova Mono", monospace;
+  font-family: "Spurce Code Pro", monospace;
   margin: 150px 0px 0px auto;
   color: var(--dom-color);
   padding: 30px;
@@ -91,7 +91,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 #pfp_pic:hover {
-  transform: translateY(-10px);
+  transform: translateY(-15px);
 }
 
 h3 {
