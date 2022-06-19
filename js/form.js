@@ -1,9 +1,9 @@
 // % emailjs stuff :)
 // ? https://dashboard.emailjs.com/admin/account
 
-const public = "ZwsR1qFB3TMYkhSVV";
+const public = ${{secrets.Public_Emailjs}};
 const gmail = "Personal_Website";
-const template = "template_w7o3tje";
+const template = ${{secrets.Template_Name}};
 
 (function () {
   emailjs.init(public);
