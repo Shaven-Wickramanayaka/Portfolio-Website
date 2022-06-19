@@ -1,4 +1,4 @@
-/* *? Global variables */
+/* ? Global variables */
 :root {
   --black: #131313;
   --dom-color: #fff;
@@ -6,14 +6,34 @@
   --sec-color: #0d6ce0;
 }
 
-@media only screen and (max-width : 768px) {
-    * {
+@media only screen and (max-width: 768px) {
+  * {
     -webkit-animation: none !important;
     -moz-animation: none !important;
     -o-animation: none !important;
     -ms-animation: none !important;
     animation: none !important;
-    }
+
+    -o-transform: none !important;
+    -moz-transform: none !important;
+    -ms-transform: none !important;
+    -webkit-transform: none !important;
+    transform: none !important;
+
+    -o-transition-property: none !important;
+    -moz-transition-property: none !important;
+    -ms-transition-property: none !important;
+    -webkit-transition-property: none !important;
+    transition-property: none !important;
+
+    border-radius: 0;
+  }
+
+  .card:hover {
+    transform: translateY(0);
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
 }
 /* * Some default styling */
 
